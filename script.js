@@ -1,3 +1,11 @@
+//send email
+
+// const name = document.querySelector("#name");
+// const email = document.querySelector("#email");
+// const telephone = document.querySelector("#telephone");
+// const subject = document.querySelector("#subject");
+// const textarea = document.querySelector("#textarea");
+
 // toogle icon navbar
 
 let menuIcon = document.querySelector("#menu-icon");
@@ -62,7 +70,7 @@ ScrollReveal().reveal(".home-content p , .about-content", { origin: "right" });
 //typed js
 
 const typed = new Typed(".multiple-text", {
-  strings: ["front end Developer", "Web designer", "Youtuber"],
+  strings: ["front end Developer", "Web designer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
